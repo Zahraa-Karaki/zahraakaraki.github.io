@@ -1,7 +1,6 @@
 package main
 
 import (
-	// The "net/http" library has methods to implement HTTP clients and servers
 	"database/sql"
 	"fmt"
 	"log"
