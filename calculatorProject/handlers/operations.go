@@ -9,7 +9,7 @@ import (
 	"github.com/zahraakaraki/MyApp/models"
 )
 
-// AddOperation returns a function that implements the Echo.HandlerFunc interface.
+
 func AddOperation(db *sql.DB) echo.HandlerFunc {
 	return func(c echo.Context) error {
 
