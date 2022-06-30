@@ -14,7 +14,7 @@ import (
 func main() {
 
 	var err error
-	db, err := sql.Open("postgres", "user=postgres password=karaki217 dbname=calculator sslmode=disable")
+	db, err := sql.Open("postgres", "user=postgres password=password dbname=calculator sslmode=disable")
 	if err != nil {
 		log.Fatal(err)
 	}
